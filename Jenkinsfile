@@ -18,7 +18,7 @@ pipeline {
             steps {
                 script {
                     withDockerRegistry(credentialsId: 'docker-cred', toolName: 'docker') {
-                        sh "docker push jinny1/emailservice:latest "
+                        sh "docker push shobhitcloud1/emailservice:latest "
                     }
                 }
             }
